@@ -1,5 +1,5 @@
 {
-	"cmd": ["cel", "$file"],
+	"cmd": ["celc -c", "$file"],
 	"file_regex": "^(?:(?:\t)|(?:.+: ))(.+):([0-9]+): (.*)$",
 	"selector": "source.cel"
 }
